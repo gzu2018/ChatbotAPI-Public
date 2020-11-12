@@ -272,7 +272,6 @@ def getTagType(jsonQuery):
 users = load_users() # user knowledgebase
 
 sent_tokens = load_tokens() # newton information knowledgebase
-printUsers(users)
 app = Flask('app') # opens flask app
 CORS(app)
 
